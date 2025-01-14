@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.overlay-element {
+  background-color: '#56aed2';
+  position: absolute; /* or 'fixed' */
+  top: 20px;
+  right: 0;
+  z-index: 1; /* higher value will be on top */
+  /* your styles for the overlay element */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
